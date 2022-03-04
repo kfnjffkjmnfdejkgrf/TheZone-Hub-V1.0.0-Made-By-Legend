@@ -1,0 +1,253 @@
+local ScreenGui = Instance.new("ScreenGui")
+
+
+local main = Instance.new("Frame")
+
+
+local label = Instance.new("TextLabel")
+
+
+local InfiniteYield = Instance.new("TextButton")
+
+
+local StrawHub = Instance.new("TextButton")
+
+
+local label_2 = Instance.new("TextLabel")
+
+
+local AntiAfk = Instance.new("TextButton")
+
+
+local ClickerSimulator = Instance.new("TextButton")
+
+
+
+--Properties:
+
+
+
+ScreenGui.Parent = game.CoreGui
+
+
+
+main.Name = "main"
+
+
+main.Parent = ScreenGui
+
+
+main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+
+
+main.Position = UDim2.new(0.0131579181, 0, 0.495639533, 0)
+
+
+main.Size = UDim2.new(0, 547, 0, 331)
+
+
+main.Active = true
+
+
+main.Draggable = true
+
+
+
+label.Name = "label"
+
+
+label.Parent = main
+
+
+label.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
+label.Size = UDim2.new(0, 547, 0, 50)
+
+
+label.Font = Enum.Font.SciFi
+
+
+label.Text = "The Zone Hub | Made By Legend"
+
+
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+label.TextSize = 14.000
+
+
+
+InfiniteYield.Name = "Infinite Yield"
+
+
+InfiniteYield.Parent = main
+
+
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
+InfiniteYield.Position = UDim2.new(0, 0, 0.169184297, 0)
+
+
+InfiniteYield.Size = UDim2.new(0, 200, 0, 50)
+
+
+InfiniteYield.Font = Enum.Font.SourceSans
+
+
+InfiniteYield.Text = "Infinite Yield"
+
+
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+InfiniteYield.TextSize = 20.000
+
+
+InfiniteYield.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+
+end)
+
+
+
+StrawHub.Name = "Straw Hub"
+
+
+StrawHub.Parent = main
+
+
+StrawHub.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
+StrawHub.Position = UDim2.new(0, 0, 0.341389716, 0)
+
+
+StrawHub.Size = UDim2.new(0, 200, 0, 50)
+
+
+StrawHub.Font = Enum.Font.SourceSans
+
+
+StrawHub.Text = "Straw Hub"
+
+
+StrawHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+StrawHub.TextSize = 20.000
+
+
+StrawHub.MouseButton1Down:connect(function()
+
+
+	loadstring(game:HttpGet("https://pastebin.com/raw/V1BhBMK9"))()
+
+
+end)
+
+
+
+label_2.Name = "label"
+
+
+label_2.Parent = main
+
+
+label_2.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
+label_2.Position = UDim2.new(0, 0, 0.848942578, 0)
+
+
+label_2.Size = UDim2.new(0, 547, 0, 50)
+
+
+label_2.Font = Enum.Font.SciFi
+
+
+label_2.Text = "The Zone Hub | Made By Legend"
+
+
+label_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+label_2.TextSize = 14.000
+
+
+
+AntiAfk.Name = "Anti - Afk"
+
+
+AntiAfk.Parent = main
+
+
+AntiAfk.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
+AntiAfk.Position = UDim2.new(0.634369314, 0, 0.169184297, 0)
+
+
+AntiAfk.Size = UDim2.new(0, 200, 0, 50)
+
+
+AntiAfk.Font = Enum.Font.SourceSans
+
+
+AntiAfk.Text = "Anti - Afk"
+
+
+AntiAfk.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+AntiAfk.TextSize = 20.000
+
+
+AntiAfk.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://pastebin.com/raw/3jPSs4zD"))()
+
+
+end)
+
+
+
+ClickerSimulator.Name = "Clicker Simulator"
+
+
+ClickerSimulator.Parent = main
+
+
+ClickerSimulator.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
+
+
+ClickerSimulator.Position = UDim2.new(0.634369314, 0, 0.341389716, 0)
+
+
+ClickerSimulator.Size = UDim2.new(0, 200, 0, 50)
+
+
+ClickerSimulator.Font = Enum.Font.SourceSans
+
+
+ClickerSimulator.Text = "Clicker Simulator"
+
+
+ClickerSimulator.TextColor3 = Color3.fromRGB(0, 0, 0)
+
+
+ClickerSimulator.TextSize = 20.000
+
+
+ClickerSimulator.MouseButton1Down:Connect(function()
+
+
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/LaDamage/releases/main/Clicker-Simulator.lua"))()
+
+
+end)
